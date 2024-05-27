@@ -46,3 +46,23 @@ This project is open-source and distributed under the MIT License, which allows 
 ## Contributors
 1. [Shishir Ravi Jois](https://github.com/ShishirRJ)
 2. [Srikanth Ravi Jois](https://github.com/SrikanthRaviJois)
+
+## Known Bugs
+While we strive to ensure a smooth user experience, the following bugs have been identified in the current version of the project:
+
+### Intermittent Connectivity Issues with WebSocket:
+Occasionally, there may be connectivity issues with the WebSocket connection, resulting in data transmission delays or interruptions.
+
+### Inconsistent Object Detection Accuracy:
+The object detection algorithm may exhibit inconsistencies in accurately identifying and tracking the yellow ball under certain lighting conditions or backgrounds.
+
+### Motor Control Variability:
+There might be variations in motor control behavior, leading to minor deviations in the robot's movement accuracy during ball tracking.
+
+### Hardware Limitations:
+The ESP32 AI Thinker Module being a Low cost microcontroller has certain limitations such as the limited RAM availibility which may cause some lag during the processing of memory intensive tasks.The WiFi range and stability of the ESP32-CAM module may vary depending on environmental factors and signal interference, potentially affecting connectivity in remote or congested areas. 
+
+## Reporting Bugs
+If you encounter any issues or bugs not listed above, please report them by opening an issue on our GitHub repository. Kindly provide detailed steps to reproduce the problem and any relevant error messages or logs. Your feedback is invaluable in improving the project for all users.
+
+
