@@ -1,0 +1,32 @@
+# Configuration File for ESP32 Object Follower Robot
+
+# ESP32-CAM Settings
+esp32_cam:
+  ip_address: "192.168.xxx.xxx"  # Enter the IP address of the ESP32-CAM module
+
+# OpenCV Settings
+opencv:
+  camera_url: "http://192.168.xxx.xxx:xx/stream"  # Enter the URL for accessing the video stream from ESP32-CAM
+  hsv_lower_bound: [20, 100, 100]  # HSV lower bound for yellow ball detection
+  hsv_upper_bound: [30, 255, 255]  # HSV upper bound for yellow ball detection
+
+# ESP32 Settings
+esp32:
+  ip_address: "192.168.xxx.xxx"  # Enter the IP address of the ESP32 module
+  port: xx  # Port number for communication with ESP32
+
+# Motor Control Pins
+motor_pins:
+  left_motor_pins:
+    pin1: 27
+    pin2: 26
+    enable_pin: 14
+  right_motor_pins:
+    pin1: 18
+    pin2: 19
+    enable_pin: 21
+
+# WiFi Settings
+wifi:
+  ssid: "YourWiFiSSID"  # Enter the SSID of your WiFi network
+  password: "YourWiFiPassword"  # Enter the password of your WiFi network
