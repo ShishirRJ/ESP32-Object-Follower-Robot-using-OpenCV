@@ -1,1 +1,0 @@
-# ESP32-Object-Follower-Robot-using-OpenCV
